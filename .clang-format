@@ -1,0 +1,43 @@
+AccessModifierOffset: -4
+AlignAfterOpenBracket: AlwaysBreak
+AlignConsecutiveAssignments: Consecutive
+AlignOperands: AlignAfterOperator
+AllowAllArgumentsOnNextLine : false
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortBlocksOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine : None
+AllowShortIfStatementsOnASingleLine : Never
+AllowShortLoopsOnASingleLine : false
+AlwaysBreakAfterReturnType : None
+BasedOnStyle: Google
+BinPackArguments : false
+BreakBeforeBinaryOperators: NonAssignment
+BreakConstructorInitializers : BeforeComma
+BreakInheritanceList : BeforeComma
+ColumnLimit: 140
+DerivePointerAlignment: false
+IndentPPDirectives: None
+IndentWidth: 4
+KeepEmptyLinesAtTheStartOfBlocks : false
+PointerAlignment: Left
+SortIncludes: true
+SpacesBeforeTrailingComments: 3
+Standard: c++17
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterEnum: true
+  AfterStruct: true
+  SplitEmptyFunction: false
+  AfterCaseLabel: true
+  AfterClass: true
+  AfterFunction: true
+  AfterNamespace: false
+  AfterUnion : true
+  AfterExternBlock: true
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeLambdaBody: false
+  SplitEmptyRecord: false
+  BeforeWhile: true
+  AfterControlStatement: Always
